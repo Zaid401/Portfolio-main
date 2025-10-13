@@ -36,8 +36,7 @@ function Header() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.7 }}
                 className='max-w-2xl mx-auto'>
-                22, i break things, learn fast, and make shit happen. deep into code and cs; anything that pushes the limits. history, curiosity, and great books shaped me. still chasing mastery.
-                If you’re working on something real, let’s talk.
+                I’m a passionate developer who turns ideas into impactful digital products. Always learning, building, and improving with every line of code. — that’s what keeps me going.
             </motion.p>
 
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

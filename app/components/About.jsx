@@ -39,8 +39,7 @@ function About() {
                     transition={{ duration: 0.6, delay: 0.8 }}
                     className='flex-1'>
                     <p className='mb-10 max-w-2xl text-gray-600 text-lg '>
-                        22, i break things, learn fast, and make shit happen. deep into code and cs; anything that pushes the limits. history, curiosity, and great books shaped me. still chasing mastery.
-                        If you’re working on something real, let’s talk.
+                        22, fueled by curiosity and caffeine. I build, break, and rebuild until it works better. Deep into code, design, and the pursuit of mastery.
                     </p>
 
                     <motion.ul
