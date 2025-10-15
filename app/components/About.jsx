@@ -30,7 +30,7 @@ function About() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.6 }}
                     className='w-64  sm:w-80 rounded-3xl max-w-none' >
-                    <Image src="/images/user.png" width={300} height={300} className="w-full rounded-3xl" />
+                    <Image src="/images/user.png" width={300} height={300} alt='' className="w-full rounded-3xl" />
                 </motion.div>
 
                 <motion.div

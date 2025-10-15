@@ -1,10 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { FaLaptopCode, FaClock } from "react-icons/fa";
+
 import Image from "next/image";
 
 export default function Projects() {
   return (
+    <>
     <div className="w-full px-[12%] py-16 scroll-mt-20 bg-gray-50 text-gray-800">
       <motion.h2
         id="projects"
@@ -14,7 +17,7 @@ export default function Projects() {
         viewport={{ once: true, amount: 0.2 }}
         className="text-center text-5xl font-bold mb-10"
       >
-        Projects
+        Proof of Work
       </motion.h2>
 
       <motion.p
@@ -216,5 +219,61 @@ export default function Projects() {
         </motion.div>
       </div>
     </div>
+            <div
+      id="experience"
+      className="w-full px-[12%] py-20 bg-[#f9fafb] text-gray-900 scroll-mt-20"
+    >
+      {/* Heading with Animation */}
+      <motion.h2
+        className="text-5xl font-bold text-center mb-6"
+        initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
+        Experience
+      </motion.h2>
+
+      <motion.p
+        className="text-center text-gray-600 mb-12 max-w-3xl mx-auto text-lg"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
+        Here’s what I’ve been working on — real-world projects that helped me grow as a developer.
+      </motion.p>
+
+      {/* Experience Card */}
+      <motion.div
+        className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 max-w-3xl mx-auto border border-gray-200"
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, type: "spring", stiffness: 80 }}
+        viewport={{ once: true }}
+      >
+        <div className="flex items-center gap-4 mb-4">
+          <FaLaptopCode className="text-blue-600 text-4xl" />
+          <div>
+            <h3 className="text-2xl font-semibold">Freelance Web Developer</h3>
+            <p className="text-gray-600">Self-employed</p>
+          </div>
+        </div>
+
+        <div className="flex items-center text-gray-500 gap-2 mb-4">
+          <FaClock />
+          <p>Jan 2023 - Present</p>
+        </div>
+
+        <p className="text-gray-700 leading-relaxed">
+          Worked with multiple clients as a freelance developer to build responsive, 
+          modern websites and web apps using React, Tailwind CSS, and Node.js. 
+          Focused on delivering high-quality, user-friendly digital experiences 
+          that combine aesthetics with performance.
+        </p>
+      </motion.div>
+    </div>
+    </>
+    
   );
 }
