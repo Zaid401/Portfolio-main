@@ -261,7 +261,7 @@ export default function Projects() {
 
         <div className="flex items-center text-gray-500 gap-2 mb-4">
           <FaClock />
-          <p>Jan 2023 - Present</p>
+          <p>2024 - Present</p>
         </div>
 
         <p className="text-gray-700 leading-relaxed">
