@@ -122,8 +122,7 @@ export default function Projects() {
           </div>
 
           <p className="text-gray-600 mb-4">
-            A full-stack app that generates YouTube Shorts ideas using AI and
-            YouTube API.
+           Enrich Hair Salon is a salon booking system with online payments and an admin dashboard for managing services and bookings.
           </p>
 
           <div className="flex flex-wrap gap-2 mb-4">
@@ -149,7 +148,7 @@ export default function Projects() {
 
           <div className="flex flex-wrap gap-3">
             <a
-              href="#"
+              href="https://stylique-six.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition-colors flex items-center gap-2"
@@ -157,7 +156,7 @@ export default function Projects() {
               <FaExternalLinkAlt /> Live Demo
             </a>
             <a
-              href="#"
+              href="https://github.com/Zaid401/StyliQue"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-green-600 text-green-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-600 hover:text-white transition-colors flex items-center gap-2"
