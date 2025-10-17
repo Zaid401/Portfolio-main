@@ -266,7 +266,7 @@ export default function Projects() {
 
         <p className="text-gray-700 leading-relaxed">
           Worked with multiple clients as a freelance developer to build responsive, 
-          modern websites and web apps using React, Tailwind CSS, and Node.js. 
+          modern websites and web apps using React,Tailwind CSS, and Node.js. 
           Focused on delivering high-quality, user-friendly digital experiences 
           that combine aesthetics with performance.
         </p>
