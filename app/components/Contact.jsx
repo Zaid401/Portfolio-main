@@ -52,7 +52,7 @@ export default function Contact() {
                 viewport={{ once: false, amount: 0.3 }}
                 className="text-4xl sm:text-5xl text-gray-800 font-extrabold tracking-tight"
               >
-                Get in touch
+                Get in touch.
               </motion.h1>
 
               <motion.p
